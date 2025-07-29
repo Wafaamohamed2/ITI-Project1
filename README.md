@@ -13,6 +13,7 @@
 
 ## Project Structure:
    1- ** Models:**
+   
        - Employee.cs: Represents an employee with properties like Id, FullName, DepartmentId, and navigation properties for Department and EmployeeProjects
        
        - Department.cs: Represents a department with Id, Name, and a collection of Employees.
@@ -24,6 +25,7 @@
        - AppDBContext.cs: Entity Framework Core DbContext for SQLite database configuration and model relationships.
        
    2- ** Services:**
+   
        - AddService.cs: Handles adding new employees, departments, and projects.
        
        - DisplayService.cs: Displays lists of employees, departments, and projects with their relationships.
@@ -33,6 +35,7 @@
        - DeleteService.cs: Handles deletion of employees, departments, and projects with validation checks.
        
    3-  ** Program.cs:**
+   
          Main entry point with an interactive console menu for navigating Add, Display, Edit, Delete, and Exit options.
 
 
